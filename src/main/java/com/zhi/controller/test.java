@@ -9,4 +9,9 @@ public class test {
     public String test(){
         return "hello kubernetes,I am zhi";
     }
+
+    @RequestMapping("/test02")
+    public String test02(){
+        return "广州市品高软件股份有限公司";
+    }
 }
