@@ -24,4 +24,9 @@ public class test {
     public String test04() {
         return "北京時間2020/1/1410：55";
     }
+
+    @RequestMapping("/test05")
+    public String test05() {
+        return "这个是test05，时间13:55";
+    }
 }
